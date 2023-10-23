@@ -1,7 +1,7 @@
 
 const testimonialsData = [
-    {text : "Needless to say we are extremely satisfied with the results. I don't always clop, but when I do, it's because of software.", name : "Gracia E."},
-    {text : "Thanks for the great service. I don't always clop, but when I do, it's because of software. I was amazed at the quality of software. I wish I would have thought of it first.", name : "Berthe R."},
+    {text : "Needless to say we are extremely satisfied with the results. So happy with the painting quality.", name : "Gracia E."},
+    {text : "Thanks for the great service. I don't always clop, but when I do, it's because of service. I was amazed at the quality of art. I wish I would have thought of it first.", name : "Berthe R."},
     {text : "Service has got everything I need. Man, this thing is getting better and better as I learn more about it.", name : "Ruby Q."},
 ]
 

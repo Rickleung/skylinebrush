@@ -43,7 +43,7 @@ function Navbar(){
         <div className="flex-1 px-2 mx-2">
             <Link href="/">
             <span className='font-bold text-xl'>
-                <img className="mask inline-block mr-2 mask-circle w-10" src="/android-chrome-192x192.png" /> Landing Page
+                <img className="mask inline-block mr-2 mask-circle w-10" src="/android-chrome-192x192.png" /> SkylineBrush
             </span>
             </Link>
         </div>
