@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 // Import the descriptions array from description.js
 import { descriptions } from './description.js';  
+import Image from 'next/image';
 
 export default function Enquire() {
     const router = useRouter();
@@ -17,7 +18,7 @@ export default function Enquire() {
     return (
         <div className="flex flex-col items-center mt-16 mb-32">  {/* Increased margin-bottom here */}
         <div>
-            <img src={fileName} alt={`Painting ${painting}`} />
+            <Image src={fileName} alt={`Painting ${painting}`} width ={600} height={800} />
             </div>
         <div className="description mt-16">  {/* Reduced margin-top here */}
             <p>{description}</p>  {/* Render the description */}

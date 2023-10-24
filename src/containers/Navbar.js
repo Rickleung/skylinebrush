@@ -5,6 +5,7 @@ import { themeChange } from 'theme-change'
 import { useEffect, useState } from 'react'
 import MoonIcon from '@heroicons/react/24/outline/MoonIcon'
 import SunIcon from '@heroicons/react/24/outline/SunIcon'
+import Image from 'next/image';
 
 function Navbar(){
 
@@ -17,17 +18,16 @@ function Navbar(){
     }
 
     useEffect(() => {
-        themeChange(false)
-        console.log(currentTheme)
+        themeChange(false);
+        console.log(currentTheme);
         if(currentTheme === null){
             if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ) {
-                setCurrentTheme("dark")
+                setCurrentTheme("dark");
             }else{
-                setCurrentTheme("light")
+                setCurrentTheme("light");
             }
         }
-        // 👆 false parameter is required for react project
-      }, [])
+    }, [currentTheme]);  // Include currentTheme here
 
 
     return(
@@ -43,7 +43,7 @@ function Navbar(){
         <div className="flex-1 px-2 mx-2">
             <Link href="/">
             <span className='font-bold text-xl'>
-                <img className="mask inline-block mr-2 mask-circle w-10" src="/android-chrome-192x192.png" /> SkylineBrush
+            <Image className="mask inline-block mr-2 mask-circle" src="/android-chrome-192x192.png" width={40} height={40} alt="SkylineBrush Logo" /> SkylineBrush
             </span>
             </Link>
         </div>

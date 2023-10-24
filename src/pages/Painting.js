@@ -2,6 +2,7 @@ import InnerPageContainer from "@/components/common/InnerPageContainer";
 import { useRouter } from 'next/router';
 import {useEffect, useState } from 'react'; 
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from 'next/image';
 
 export default function Page() {
     // Generate an array of image file names based on a naming convention
@@ -47,7 +48,7 @@ export default function Page() {
             key={index} 
             onClick={() => setSelectedIndex(index)}
         >
-            <img src={fileName} className="w-full object-cover" alt={`Painting ${index + 1}`} />
+            <Image src={fileName} className="w-full object-cover"  width={500} height={600} alt={`Painting ${index + 1}`} />
             <button 
                 className="btn btn-primary opacity-50 absolute bottom-4 right-4"  // Adjusted classes for styling
                 onClick={(e) => {

@@ -11,15 +11,15 @@ export default function Page() {
             </p>
 
            <p className="mt-8">
-           He realized that just as the skyline was a canvas brushed by architectural marvels, his platform would serve as a canvas brushed by artistic marvels. The idea was to provide a stage where every stroke, every color, every texture would bring the world closer to the heart of Asia, with Hong Kong’s spirit as the underpinning essence.
+           He realized that just as the skyline was a canvas brushed by architectural marvels, his platform would serve as a canvas brushed by artistic marvels. The idea was to provide a stage where every stroke, every color, every texture would bring the world closer to the heart of Asia, with Hong Kong&quot;s spirit as the underpinning essence.
           </p>
 
           <p className="mt-8">
-          After months of preparation, his vision took a tangible form. The platform was ready, shimmering with the promise of endless possibilities, a place where every artist could leave a mark, where every viewer could traverse the heart and soul of Asia through the strokes of a brush. The name had to be as inspiring and evocative as the vision behind it. And so, with a heart full of hope and eyes reflecting the dreamy hues of the Hong Kong skyline, Warren Chiu named his platform "SkylineBrush".
+          After months of preparation, his vision took a tangible form. The platform was ready, shimmering with the promise of endless possibilities, a place where every artist could leave a mark, where every viewer could traverse the heart and soul of Asia through the strokes of a brush. The name had to be as inspiring and evocative as the vision behind it. And so, with a heart full of hope and eyes reflecting the dreamy hues of the Hong Kong skyline, Warren Chiu named his platform &quot;SkylineBrush&quot;.
           </p>
 
           <p className="mt-8">
-          SkylineBrush was not just a name, but a tribute to the enduring skyline of Hong Kong, a metaphor for the unyielding spirit of Asian artists, and a canvas awaiting the brush strokes of talent from every corner of the continent. The story of SkylineBrush was not just Warren's, but that of every artist whose heart resonated with the rhythm of creativity, with the silhouette of Hong Kong’s skyline etching a perpetual imprint on the canvas of their artistic journey.
+          SkylineBrush was not just a name, but a tribute to the enduring skyline of Hong Kong, a metaphor for the unyielding spirit of Asian artists, and a canvas awaiting the brush strokes of talent from every corner of the continent. The story of SkylineBrush was not just Warren&quot;s, but that of every artist whose heart resonated with the rhythm of creativity, with the silhouette of Hong Kong&quot;s skyline etching a perpetual imprint on the canvas of their artistic journey.
           </p>
 
       </InnerPageContainer>
