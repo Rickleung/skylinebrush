@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 // Import the descriptions array from description.js
-import { descriptions } from './description.js';  
+import { descriptions } from '../containers/description.js';  
 import Image from 'next/image';
 
 export default function Enquire() {

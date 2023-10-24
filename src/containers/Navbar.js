@@ -62,7 +62,7 @@ function Navbar(){
           <div className="dropdown ml-6 dropdown-end">
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                     <div className="w-6 rounded-full">
-                    <Image src="https://placeimg.com/80/80/people" width={40} height={40} alt="profile" />
+                    <Image src="/Warren/1.png" width={40} height={40} alt="profile" />
                     </div>
                 </label>
                 <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100  rounded-box w-52">
